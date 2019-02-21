@@ -79,187 +79,232 @@ INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(7,'“Nuevas direc
 INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(7,'“Nuevas direcciones asimétricas”.',0);
 INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(7,'',0);
 
-/*
-8.- ¿Quiénes proponen el primer sistema de curvas elípticas?
-a)	Neal Kablitz y Claude Shannon.
-b)	Victor Miller y Arthur Ekert.
-c)	Claude Shannon y Arhur Ekert.
-d)	Neal Kablitz y Victor Miller.
-e)	Arthur Ekert y Neal Kablitz.
+/*PREGUNTA  8*/
+INSERT INTO preguntas(pregunta) VALUES('¿Quiénes proponen el primer sistema de curvas elípticas?');
 
+/*RESPUESTAS PREGUNTA  8*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(8,'Neal Kablitz y Claude Shannon.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(8,'Victor Miller y Arthur Ekert.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(8,'Claude Shannon y Arhur Ekert.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(8,'Neal Kablitz y Victor Miller.',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(8,'Arthur Ekert y Neal Kablitz.',0);
 
-9.- ¿Qué propone la criptografía asimétrica? 
-a)	Una técnica para cifrar y otra para descifrar.
-b)	Una técnica para cifrar, otra para ocultar y otra para descifrar.
-c)	Una técnica para cifrar y otra para ocultar. 
-d)	Una técnica para ocultar.
-e)	Una técnica para ocultar y descifrar.
+/*PREGUNTA  9*/
+INSERT INTO preguntas(pregunta) VALUES('¿Qué propone la criptografía asimétrica?');
 
+/*RESPUESTAS PREGUNTA  9*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(9,'Una técnica para cifrar y otra para descifrar.',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(9,'Una técnica para cifrar, otra para ocultar y otra para descifrar.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(9,'Una técnica para cifrar y otra para ocultar.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(9,'Una técnica para ocultar.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(9,'Una técnica para ocultar y descifrar.',0);
 
-10.- En términos generales, ¿qué busca el criptoanálisis?
-a)	Descubrir información de forma lícita. 
-b)	Esconder información.
-c)	Descubrir información de forma ilícita. 
-d)	Transformar y esconder información.
-e)	Transformar información.
+/*PREGUNTA  10*/
+INSERT INTO preguntas(pregunta) VALUES('En términos generales, ¿qué busca el criptoanálisis?');
 
+/*RESPUESTAS PREGUNTA  10*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(10,'Descubrir información de forma lícita.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(10,'Esconder información.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(10,'Descubrir información de forma ilícita. ',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(10,'Transformar y esconder información.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(10,'Transformar información.',0);
 
-11.- ¿Cuál es la diferencia principalmente entre la esteganografía y la criptografía? 
-a)	La criptografía transforma los datos y la esteganografía los descubre de forma ilícita.
-b)	Ambas son la misma disciplina.
-c)	La criptografía esconde los datos y la esteganografía los transforma.
-d)	La criptografía esconde los datos y la esteganografía los descubre de forma ilícita.
-e)	La criptografía transforma los datos y la esteganografía los esconde.
+/*PREGUNTA  11*/
+INSERT INTO preguntas(pregunta) VALUES('¿Cuál es la principal diferencia entre la esteganografía y la criptografía?');
 
+/*RESPUESTAS PREGUNTA  11*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(11,'La criptografía transforma los datos y la esteganografía los descubre de forma ilícita.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(11,'Ambas son la misma disciplina.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(11,'La criptografía esconde los datos y la esteganografía los transforma.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(11,'La criptografía esconde los datos y la esteganografía los descubre de forma ilícita.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(11,'La criptografía transforma los datos y la esteganografía los esconde.',1);
 
-12.- La ____________ se utiliza para cifrar información de manera que sea ininteligible para un probable. 
-a)	Criptología.
-b)	Esteganografía.
-c)	Teoría de la complejidad.
-d)	Criptografía.
-e)	Estadística.
+/*PREGUNTA  12*/
+INSERT INTO preguntas(pregunta) VALUES('La ____________ se utiliza para cifrar información de manera que sea ininteligible para un probable.');
 
+/*RESPUESTAS PREGUNTA  12*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(12,'Criptología.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(12,'Esteganografía.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(12,'Teoría de la complejidad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(12,'Criptografía.',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(12,'Estadística.',0);
 
-13.- Es el arte de transmitir información de modo que la presencia de la misma pase inadvertida. 
-a)	Teoría de la complejidad.
-b)	Esteganografía.
-c)	Criptoanálisis.
-d)	Criptografía asimétrica. 
-e)	Criptología.
+/*PREGUNTA  13*/
+INSERT INTO preguntas(pregunta) VALUES('Es el arte de transmitir información de modo que la presencia de la misma pase inadvertida.');
 
+/*RESPUESTAS PREGUNTA  13*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(13,'Teoría de la complejidad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(13,'Esteganografía.',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(13,'Criptoanálisis.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(13,'Criptografía asimétrica. ',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(13,'Criptología.',0);
 
-14.- De las siguientes opciones, ¿cuál no es una aplicación de la esteganografía? 
-a)	Tabletas recubiertas de cera.
-b)	Canales digitales.
-c)	Algoritmos para ocultar la información en imágenes.
-d)	Pergaminos.
-e)	Tintas invisibles. 
+/*PREGUNTA  14*/
+INSERT INTO preguntas(pregunta) VALUES('De las siguientes opciones, ¿cuál no es una aplicación de la esteganografía?');
 
+/*RESPUESTAS PREGUNTA  14*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(14,'Tabletas recubiertas de cera.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(14,'Canales digitales.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(14,'Algoritmos para ocultar la información en imágenes.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(14,'Pergaminos con tinta china',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(14,'Tintas invisibles. ',0);
 
-15.- ¿Cuál de las siguientes no es una teoría o ciencia matemática que fundamenta a la criptografía? 
-a)	Estadística.
-b)	Teoría de la complejidad. 
-c)	Teoría de los números.
-d)	Teoría de la información.
-e)	Probabilidad.
+/*PREGUNTA  15*/
+INSERT INTO preguntas(pregunta) VALUES('¿Cuál de las siguientes no es una teoría o ciencia matemática que fundamenta a la criptografía?');
 
+/*RESPUESTAS PREGUNTA  15*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(15,'Estadística.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(15,'Teoría de la complejidad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(15,'Teoría de los números.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(15,'Teoría de la información.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(15,'Probabilidad.',1);
 
-16.-  El criptoanalista ______________ interceptó un telegrama cifrado que anunciaba la guerra en EUA.
-a)	William Montgomery.
-b)	Claude Shannon. 
-c)	Neal Kablitz.
-d)	Victor Miller.
-e)	Alan Turing.
+/*PREGUNTA  16*/
+INSERT INTO preguntas(pregunta) VALUES('El criptoanalista ______________ interceptó un telegrama cifrado que anunciaba la guerra en EUA.');
 
+/*RESPUESTAS PREGUNTA  16*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(16,'William Montgomery.',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(16,'Claude Shannon.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(16,'Neal Kablitz.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(16,'Victor Miller.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(16,'Alan Turing.',0);
 
-17.- La medición de la información y la capacidad de los sistemas de transmisión para transmitir y procesar la información de forma eficiente y segura, se refiere a:
-a)	La teoría de la información.
-b)	La estadística.
-c)	La probabilidad.
-d)	La teoría de los números.
-e)	La teoría de la complejidad.
+/*PREGUNTA  17*/
+INSERT INTO preguntas(pregunta) VALUES('La medición de la información y la capacidad de los sistemas de transmisión para transmitir y procesar la información de forma eficiente y segura, se refiere a:');
 
+/*RESPUESTAS PREGUNTA  17*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(17,'La teoría de la información.',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(17,'La estadística.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(17,'La probabilidad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(17,'La teoría de los números.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(17,'La teoría de la complejidad.',0);
 
-18.- Su objetivo es estudiar los recursos requeridos durante el cálculo para resolver un problema (tiempo y espacio).
-a)	La teoría de la información.
-b)	La estadística.
-c)	La probabilidad.
-d)	La teoría de los números.
-e)	La teoría de la complejidad.
+/*PREGUNTA  18*/
+INSERT INTO preguntas(pregunta) VALUES('Su objetivo es estudiar los recursos requeridos durante el cálculo para resolver un problema (tiempo y espacio).');
 
+/*RESPUESTAS PREGUNTA  18*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(18,'La teoría de la información.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(18,'La estadística.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(18,'La probabilidad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(18,'La teoría de los números.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(18,'La teoría de la complejidad.',1);
 
-19.- Conforman el triunvirato de la seguridad:
-a)	Confidencialidad, integridad y control de acceso.
-b)	Confidencialidad, integridad y disponibilidad.
-c)	Control de acceso, autentificación y no repudio.
-d)	Integridad, disponibilidad y control de acceso.
-e)	Control de acceso, autentificación e integridad.
+/*PREGUNTA  19*/
+INSERT INTO preguntas(pregunta) VALUES('Conforman el triunvirato de la seguridad:');
 
+/*RESPUESTAS PREGUNTA  19*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(19,'Confidencialidad, integridad y control de acceso.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(19,'Confidencialidad, integridad y disponibilidad.',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(19,'Control de acceso, autentificación y no repudio.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(19,'Integridad, disponibilidad y control de acceso.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(19,'Control de acceso, autentificación e integridad.',0);
 
-20.- Se refiere a no poder rechazar o tener oportunidad de rechazar que se hizo o modificó algo.
-a)	Confidencialidad.
-b)	Integridad.
-c)	Disponibilidad.
-d)	Control de acceso.
-e)	No repudio.
+/*PREGUNTA  20*/
+INSERT INTO preguntas(pregunta) VALUES('Se refiere a no poder rechazar o tener oportunidad de rechazar que se hizo o modificó algo.');
 
+/*RESPUESTAS PREGUNTA  20*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(20,'Confidencialidad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(20,'Integridad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(20,'Disponibilidad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(20,'Control de acceso.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(20,'No repudio.',1);
 
-21.- La seguridad de un criptosistema se mide suponiendo que el enemigo conoce completamente ambos procesos (cifrado y descifrado), se refiere:
-a)	A los servicios de seguridad.
-b)	Al triunvirato de la seguridad.
-c)	A la teoría de la complejidad.
-d)	Al principio de Kerckhoffs.
-e)	Al principio de Diffie.
+/*PREGUNTA  21*/
+INSERT INTO preguntas(pregunta) VALUES('La seguridad de un criptosistema se mide suponiendo que el enemigo conoce completamente ambos procesos (cifrado y descifrado), se refiere:');
 
+/*RESPUESTAS PREGUNTA  21*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(21,'A los servicios de seguridad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(21,'Al triunvirato de la seguridad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(21,'A la teoría de la complejidad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(21,'Al principio de Kerckhoffs.',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(21,'Al principio de Diffie.',0);
 
-22.- Son los tipos de secreto: 
-a)	El secreto teórico y el secreto personal.
-b)	El secreto práctico y el secreto personal.
-c)	El secreto teórico y el secreto práctico. 
-d)	El secreto personal y el secreto confidencial.
-e)	El secreto confidencial y el secreto práctico.
+/*PREGUNTA  22*/
+INSERT INTO preguntas(pregunta) VALUES('Son los tipos de secreto:');
 
+/*RESPUESTAS PREGUNTA  22*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(22,'El secreto teórico y el secreto personal.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(22,'El secreto práctico y el secreto personal.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(22,'El secreto teórico y el secreto práctico.',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(22,'El secreto personal y el secreto confidencial.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(22,'El secreto confidencial y el secreto práctico.',0);
 
-23.- Es el secreto que está seguro contra cualquier enemigo que tenga recursos y tiempo ilimitado:
-a)	El secreto teórico.
-b)	El secreto personal.
-c)	El secreto práctico.
-d)	El secreto confidencial.
-e)	Ninguno de los anteriores.
+/*PREGUNTA  23*/
+INSERT INTO preguntas(pregunta) VALUES('Es el secreto que está seguro contra cualquier enemigo que tenga recursos y tiempo ilimitado:');
 
+/*RESPUESTAS PREGUNTA  23*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(23,'El secreto teórico.',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(23,'El secreto personal.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(23,'El secreto práctico.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(23,'El secreto confidencial.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(23,'Ninguno de los anteriores',0);
 
-24.- ¿Por qué se dice que el secreto práctico tiene caducidad? 
-a)	Porque no está seguro por tiempo ilimitado.
-b)	Porque está seguro por tiempo ilimitado.
-c)	Porque permanece secreto sólo el tiempo necesario. Al ser descubierto resulta relevante.
-d)	Porque permanece secreto sólo el tiempo necesario. Al ser descubierto resulta irrelevante. 
-e)	Porque permanece secreto por muy poco tiempo. Al ser descubierto resulta relevante.
+/*PREGUNTA  24*/
+INSERT INTO preguntas(pregunta) VALUES('¿Por qué se dice que el secreto práctico tiene caducidad?');
 
+/*RESPUESTAS PREGUNTA  24*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(24,'Porque no está seguro por tiempo ilimitado.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(24,'Porque está seguro por tiempo ilimitado.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(24,'Porque permanece secreto sólo el tiempo necesario. Al ser descubierto resulta relevante.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(24,'Porque permanece secreto sólo el tiempo necesario. Al ser descubierto resulta irrelevante. ',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(24,'Porque permanece secreto por muy poco tiempo. Al ser descubierto resulta relevante.',0);
 
-25.- Al decir que se debe asegurar que solamente el usuario lícito pueda observar la información, ¿a qué servicio de seguridad se refiere? 
-a)	Confidencialidad.
-b)	Integridad.
-c)	Disponibilidad.
-d)	Control de acceso.
-e)	No repudio.
+/*PREGUNTA  25*/
+INSERT INTO preguntas(pregunta) VALUES('Al decir que se debe asegurar que solamente el usuario lícito pueda observar la información, ¿a qué servicio de seguridad se refiere?');
 
+/*RESPUESTAS PREGUNTA  25*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(25,'Confidencialidad.',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(25,'Integridad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(25,'Disponibilidad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(25,'Control de acceso.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(25,'No repudio.',0);
 
-26.- En un criptosistema, ¿qué se obtiene después del proceso de cifrado?
-a)	El mensaje en claro.
-b)	El proceso de descifrado
-c)	El texto en plano
-d)	El mensaje en claro.
-e)	El texto o mensaje cifrado.
+/*PREGUNTA  26*/
+INSERT INTO preguntas(pregunta) VALUES('En un criptosistema, ¿qué se obtiene después del proceso de cifrado?');
 
+/*RESPUESTAS PREGUNTA  26*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(26,'El mensaje en claro.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(26,'El proceso de descifrado',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(26,'El texto en plano',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(26,'El mensaje en claro.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(26,'El texto o mensaje cifrado.',1);
 
-27.- En un criptosistema, es otra forma de llamar al texto o mensaje cifrado.
-a)	Clave K.
-b)	Criptograma.
-c)	Mensaje K.
-d)	Criptomensaje.
-e)	Cifrado K.
+/*PREGUNTA  27*/
+INSERT INTO preguntas(pregunta) VALUES('En un criptosistema, es otra forma de llamar al texto o mensaje cifrado.');
 
+/*RESPUESTAS PREGUNTA  27*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(27,'Clave K.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(27,'Criptograma.',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(27,'Mensaje K.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(27,'Criptomensaje.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(27,'Cifrado K.',0);
 
-28.- De los siguientes servicios de seguridad, ¿cuál de ellos no sirve para la criptografía?
-a)	Confidencialidad.
-b)	Integridad.
-c)	Disponibilidad.
-d)	Control de acceso.
-e)	Autentificación.
+/*PREGUNTA  28*/
+INSERT INTO preguntas(pregunta) VALUES('De los siguientes servicios de seguridad, ¿cuál de ellos no sirve para la criptografía?');
 
+/*RESPUESTAS PREGUNTA  28*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(28,'Confidencialidad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(28,'Integridad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(28,'Disponibilidad.',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(28,'Control de acceso.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(28,'Autentificación.',0);
 
-29.- Los algoritmos E91 y BB84 son aplicaciones de:
-a)	Teoría de la complejidad.
-b)	Criptografía simétrica.
-c)	Criptografía asimétrica. 
-d)	Criptología.
-e)	Criptografía cuántica.
+/*PREGUNTA  29*/
+INSERT INTO preguntas(pregunta) VALUES('Los algoritmos E91 y BB84 son aplicaciones de:');
 
+/*RESPUESTAS PREGUNTA  29*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(29,'Teoría de la complejidad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(29,'Criptografía simétrica.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(29,'Criptografía asimétrica.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(29,'Criptología.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(29,'Criptografía cuántica.',1);
 
-30.- “La seguridad de un criptosistema debe depender única y exclusivamente de la secrecía d la clave, de ninguna otra parte del sistema” es un resumen de: 
-a)	Los servicios de seguridad.
-b)	Triunvirato de la seguridad.
-c)	La teoría de la complejidad.
-d)	El principio de Kerckhoffs.
-e)	El principio de Diffie.
-*/
+/*PREGUNTA  30*/
+INSERT INTO preguntas(pregunta) VALUES('“La seguridad de un criptosistema debe depender única y exclusivamente de la secrecía d la clave, de ninguna otra parte del sistema” es un resumen de:');
+
+/*RESPUESTAS PREGUNTA  30*/
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(30,'Los servicios de seguridad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(30,'Triunvirato de la seguridad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(30,'La teoría de la complejidad.',0);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(30,'El principio de Kerckhoffs.',1);
+INSERT INTO respuestas(id_pregunta,respuesta,correcta) VALUES(30,'El principio de Diffie.',0);
