@@ -20,7 +20,7 @@ CREATE TABLE preguntas (
 	id_pregunta SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
 	pregunta VARCHAR(250) NOT NULL,
 	PRIMARY KEY (id_pregunta)
-);
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 
 DROP TABLE IF EXISTS respuestas;
@@ -32,7 +32,7 @@ CREATE TABLE respuestas (
 	correcta TINYINT UNSIGNED NOT NULL DEFAULT 0,
 	PRIMARY KEY(id_respuesta),
 	FOREIGN KEY(id_pregunta) REFERENCES preguntas(id_pregunta)
-);
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 DROP TABLE IF EXISTS usuario_respuestas;
 
